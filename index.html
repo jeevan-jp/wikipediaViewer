@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiki</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="text-center text-primary" id="row1">Wikipedia Viewer</div>
+
+		<div class="row col-md-12">
+
+				<form method="get" id="middle" form-horizontal>
+					<div class="form-group">
+						<div class="input-group">
+  							<input type="text" id="keyword" class="form-control" placeholder="Enter keyword to search" autofocus>
+  							<span class="input-group-addon fa fa-search" style="font-size:30px; color:red;" id="basic-addon1"></span>
+						</div>
+					</div>
+
+					<div id="dataList">
+						<ul class="list-unstyled">
+						</ul>
+					</div>
+
+					<div class="form-group">
+						<div class="btn btn-lg btn-dark form-control" id="search1">Wiki Search</div>
+					</div>
+
+					<div class="form-group">
+						<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-lg btn-primary form-control" id="random">Random Article</button></a>
+					</div>
+				</form>
+		</div>
+
+	</div>
+
+	<script src="jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

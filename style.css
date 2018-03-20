@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;		
+
+}
+
+.decoration{
+	height: 103px;
+	padding : 15px 20px;
+	background: #efe8ff;
+	margin-bottom: 10px;
+	border-bottom: 3px solid black;
+	overflow: hidden;
+	text-align: justify;
+}
+
+#keyword:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#keyword {
+    border-color: #9ecaed;
+}
+
+#row1{
+	font-size: 10vh;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+li {
+	border-top: 3px solid black;
+}
+
+#middle{
+	margin: auto;
+	width: 50%;
+	margin-top: 5%;
+}
