@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$('#keyword').focus();
-
 	function searchOnWiki(){
 
 		var key = $("#keyword").val();
@@ -38,6 +37,11 @@ $(document).ready(function(){
 		e.preventDefault();
 		searchOnWiki();
 	});
+
+	$('#random').click(function(e){
+		e.preventDefault();
+		window.open('https://en.wikipedia.org/wiki/Special:Random');
+	})
 
 })
 
